@@ -4,7 +4,7 @@ import SinglePlayer from "../componenets/SinglePlayer"
 
 function PlayersPage() {
 
-    // const { data, error, isLoading } = useGetPlayersQuery();
+    const { data, error, isLoading } = useGetPlayersQuery();
 
     return (
         <>

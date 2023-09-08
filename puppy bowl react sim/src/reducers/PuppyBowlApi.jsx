@@ -14,5 +14,6 @@ export const PuppyBowlApi = createApi({
         }),
     }),
 })
+console.log(PuppyBowlApi)
 
 export const {useGetPlayerByNameQuery, useGetPlayersQuery } = PuppyBowlApi
